@@ -124,64 +124,7 @@ p{
 --------------------*/
 .construction-canvas{
     margin: 24px auto 0;
-}
-
-
-/* ------------------
-    Watch
---------------------*/
-#watch{
-    color: #f6f7f9;
-    text-align: center;
-}
-
-#watch .dash {
-    display: inline-block;
-    padding: 20px 30px;
-    line-height: 72px;
-    text-align: center;
-    margin: 0 -3px;
-}
-
-#watch .dash:first-child{
-    border-radius: 8px 0px 0px 8px;
-    background-color: #3853d8;
-}
-#watch .dash:last-child{
-    border-radius: 0px 8px 8px 0px;
-    background-color: #3853d8;
-    padding-left: 28px;
-    padding-right: 28px;
-}
-
-#watch .dash:nth-child(2){
-    background-color: #3853d8;
-}
-#watch .dash:nth-child(3){
-    background-color: #3853d8;
-}
-
-#watch .dash .digit {
-    display: block;
-    width: 24px;
-    font-size: 44px;
-    line-height: 44px;
-    height: 38px;
-    float: left;
-}
-
-#watch .dash .digit .top, #watch .dash .digit .bottom{
-    font-weight: 300;
-}
-
-#watch .dash span.dash_title {
-    font-size: 14px;
-    line-height: 16px;
-    padding-top: 6px;
-    font-weight: 300;
-    display: block;
-    text-align: center;
-    clear: both;
+    width: 100%;
 }
 
 
@@ -235,7 +178,6 @@ p{
     background-color: #3f62d8;
 }
 
-
 /* ------------------
     Animationload
 --------------------*/
@@ -258,4 +200,9 @@ p{
     background-image: url("../img/ajax-loader.gif");
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.text{
+    width: 100%;
+    height: auto;
 }
